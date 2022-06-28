@@ -1,0 +1,62 @@
+package org.example.chatbox
+
+import android.content.Intent
+import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.firebase.ui.firestore.FirestoreRecyclerOptions
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.Query
+import com.google.firebase.ktx.Firebase
+import org.example.chatbox.daos.PostDao
+import org.example.chatbox.models.Post
+
+class MainActivity : AppCompatActivity(), IPostAdapter {
+    private lateinit var postDao: PostDao
+    private lateinit var adapter: PostAdapter
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        val fab = findViewById<FloatingActionButton>(R.id.fab)
+        fab.setOnClickListener {
+            val intent = Intent(this, CreatePostActivity::class.java)
+            startActivity(intent)
+        }
+
+        setUpRecyclerView()
+    }
+
+
+
+
+    private fun setUpRecyclerView() {
+        postDao = PostDao()
+        val postCollections = postDao.postCollections
+        val query  = postCollections.orderBy("createdAt", Query.Direction.DESCENDING)
+        val recyclerViewOptions = FirestoreRecyclerOptions.Builder<Post>().setQuery(query, Post::class.java).build()
+        adapter = PostAdapter(recyclerViewOptions, this)
+
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.adapter = adapter
+        recyclerView.layoutManager = LinearLayoutManager(this)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        adapter.startListening()
+    }
+
+    override fun onStop() {
+        super.onStop()
+        adapter.stopListening()
+    }
+
+    override fun onLikeClicked(postId: String) {
+        postDao.updateLikes(postId)
+    }
+}
