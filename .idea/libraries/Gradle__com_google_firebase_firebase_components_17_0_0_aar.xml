@@ -5,15 +5,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bcf89920c55cf3d4ae659c0dac4ee729/transformed/jetified-firebase-components-17.0.0/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/9fdf4780c372e3f31efb79eee3326f2e/transformed/jetified-firebase-components-17.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9fdf4780c372e3f31efb79eee3326f2e/transformed/jetified-firebase-components-17.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/res" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/res" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/160eb5893710588b01ded51a087e5060/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-components/17.0.0/9e60bbf61b1c71e0b01a3e959f2e2111b51f3c83/firebase-components-17.0.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-components/17.0.0/9e60bbf61b1c71e0b01a3e959f2e2111b51f3c83/firebase-components-17.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-components/17.0.0/15fad94dd3f9b6ecf5e03a5a7c08732f8ef3a5be/firebase-components-17.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-components/17.0.0/15fad94dd3f9b6ecf5e03a5a7c08732f8ef3a5be/firebase-components-17.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

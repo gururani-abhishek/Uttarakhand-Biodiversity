@@ -5,15 +5,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8f26839da8f3799e4615238d6fb3c955/transformed/jetified-firebase-firestore-ktx-23.0.4/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/7c7a3a7e476e5acfbe473b368079c960/transformed/jetified-firebase-firestore-ktx-23.0.4/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c7a3a7e476e5acfbe473b368079c960/transformed/jetified-firebase-firestore-ktx-23.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/res" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/res" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/93514dd0b9875b22304e96cf0f9f0d67/transformed/jetified-firebase-firestore-ktx-23.0.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.4/7db9a65549cbe82b1733bbcab2d96a8d55da108a/firebase-firestore-ktx-23.0.4-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.4/7db9a65549cbe82b1733bbcab2d96a8d55da108a/firebase-firestore-ktx-23.0.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.4/43d6c71a57be968079631bcc9de71951a3f578df/firebase-firestore-ktx-23.0.4-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/23.0.4/43d6c71a57be968079631bcc9de71951a3f578df/firebase-firestore-ktx-23.0.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -8,6 +8,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatBox">
         <activity
+            android:name=".FaunaPresentationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FloraPresentationActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignInActivity"
             android:exported="false" />
         <activity

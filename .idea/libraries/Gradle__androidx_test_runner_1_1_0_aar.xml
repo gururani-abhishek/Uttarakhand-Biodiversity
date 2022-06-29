@@ -5,15 +5,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e402052665f5e661580745b2cff0f5fa/transformed/runner-1.1.0/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/2d1e3b502c7f49a95e7a147d1cfae07a/transformed/runner-1.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2d1e3b502c7f49a95e7a147d1cfae07a/transformed/runner-1.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-3/ad56d126e0a89d9a02a56b5a795d8e3a/transformed/runner-1.1.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/runner/1.1.0/c274a591e1dc9f8d64f8f10a71d0e282078b1043/runner-1.1.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/androidx.test/runner/1.1.0/c274a591e1dc9f8d64f8f10a71d0e282078b1043/runner-1.1.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/runner/1.1.0/c5c79ef06dbb738578ae3b6312fbca6755aa9193/runner-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/androidx.test/runner/1.1.0/c5c79ef06dbb738578ae3b6312fbca6755aa9193/runner-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
