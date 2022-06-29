@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose between flora and fauna!!"
+        android:text="What do you want to explore!"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintTop_toTopOf="parent"
@@ -17,10 +17,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         />
+
+
     <ImageView
         android:id="@+id/flora"
         android:layout_width="325dp"
         android:layout_height="188dp"
+        android:scaleType="centerCrop"
         android:layout_marginTop="180dp"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -28,13 +31,34 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/flora"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
+        android:text="tap here to explore Uttarakhand's flora"
+   />
     <ImageView
         android:id="@+id/fauna"
+        android:scaleType="centerCrop"
         android:layout_width="325dp"
         android:src="@drawable/img_1"
         android:layout_height="188dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/flora" />
+        app:layout_constraintTop_toBottomOf="@+id/flora"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fauna"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
+        android:text="tap here to explore Uttarkhand's fauna"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
