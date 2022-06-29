@@ -11,7 +11,9 @@
         <entry key="app/src/main/res/drawable/ic_circular.xml" value="0.12037037037037036" />
         <entry key="app/src/main/res/drawable/ic_explore.xml" value="0.1065" />
         <entry key="app/src/main/res/drawable/ic_fauna_background.xml" value="0.119" />
+        <entry key="app/src/main/res/drawable/ic_favourite.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.119" />
+        <entry key="app/src/main/res/drawable/ic_liked.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/ic_phone_icon.xml" value="0.12037037037037036" />
         <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.12037037037037036" />
         <entry key="app/src/main/res/drawable/ic_profile_picture.xml" value="0.12037037037037036" />
@@ -20,7 +22,7 @@
         <entry key="app/src/main/res/layout/activity_academics.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_circular.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_create_post.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_fauna_presentation.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_fauna_presentation.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_flora_presentation.xml" value="0.17864583333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.19322916666666667" />
@@ -29,7 +31,8 @@
         <entry key="app/src/main/res/layout/activity_result.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18931159420289856" />
-        <entry key="app/src/main/res/layout/item_post.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/item_fauna.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/item_post.xml" value="0.22" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/sign_out_option.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_fauna.xml" value="0.119" />
