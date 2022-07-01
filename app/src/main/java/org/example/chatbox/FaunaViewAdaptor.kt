@@ -3,6 +3,7 @@ package org.example.chatbox
 import android.content.Context
 import android.media.Image
 import android.view.LayoutInflater
+import android.view.RoundedCorner
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -10,6 +11,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.firebase.auth.ktx.auth
@@ -42,7 +44,12 @@ class FaunaViewAdaptor(options: FirestoreRecyclerOptions<Animals>, val listener:
     override fun onBindViewHolder(holder: FaunaViewHolder, position: Int, model: Animals) {
         holder.sciName.text = model.sciName
         holder.localName.text = model.localName
-        Glide.with(holder.animalImage.context).load(model.animalImage).centerCrop().into(holder.animalImage)
+        Glide.with(holder.animalImage.context)
+            .load(model.animalImage)
+            .fitCenter()
+            .transform(RoundedCorners(30))
+            .into(holder.animalImage)
+
         holder.favCount.text = model.favBy.size.toString()
 
         val auth = Firebase.auth

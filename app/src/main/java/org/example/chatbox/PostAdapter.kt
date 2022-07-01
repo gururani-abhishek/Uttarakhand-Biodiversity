@@ -30,8 +30,6 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>, val listener: IPostAd
         viewHolder.likeButton.setOnClickListener {
             listener.onLikeClicked(snapshots.getSnapshot(viewHolder.adapterPosition).id)
         }
-
-
         return viewHolder
     }
 
@@ -51,7 +49,6 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>, val listener: IPostAd
             holder.likeButton.setImageDrawable(ContextCompat.getDrawable(holder.likeButton.context, R.drawable.ic_unliked))
         }
     }
-
 }
 
 interface IPostAdapter {

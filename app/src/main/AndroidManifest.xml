@@ -8,6 +8,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatBox">
         <activity
+            android:name=".StatusFloraFaunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FloraZonesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FloraandFaunaZonesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ValleyOfFlowersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatusFloraActivity"
+            android:exported="false" />
+        <activity
             android:name=".FaunaPresentationActivity"
             android:exported="false" />
         <activity

@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".FloraPresentationActivity">
 
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="tap to open: "
+        android:fontFamily="@font/patrick_hand_sc"
+        android:textColor="@color/purple_200"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/valley"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:backgroundTint="#F1EEEE"
+        android:layout_marginTop="40dp"
+        android:text="Valley Of Flowers, Chamoli"
+        android:fontFamily="@font/patrick_hand_sc"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc" />
+
+    <Button
+        android:id="@+id/zones"
+        android:backgroundTint="#F1EEEE"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:text="Flora Zones in Uttarkhand"
+        android:fontFamily="@font/patrick_hand_sc"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valley" />
+
+    <Button
+        android:id="@+id/status"
+        android:layout_width="280dp"
+        android:backgroundTint="#F1EEEE"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Status of Flora and Fauna"
+        android:fontFamily="@font/patrick_hand_sc"
+        android:textColor="@color/purple_200"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zones" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

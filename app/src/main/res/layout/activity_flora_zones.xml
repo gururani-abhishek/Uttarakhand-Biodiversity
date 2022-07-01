@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FloraZonesActivity">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:padding = "10dp"
+        android:textColor="@color/black"
+        android:text="Sub-Tropical Zone of Uttarakhand\n\nThe sub-tropical zone has pure as well as mixed forests of Shore Robusta (Sa I), the others
+being Lannea coromandelica (Jhingan), Buchanania lanzan,
+Dalbergia disso (Shisham), Haldina cordifolia (Haldu),
+Syzygium cumini (Jamun), Mallotus philippinensis (Rohini),
+Mitragyna parvifolia, Terminalia spp. (Myrobalans), Ficus spp.
+(Figs), Macaranga pustulata, Callicarpa arborea"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:padding="10dp"
+        android:text="Temperate Zone of Uttarakhand\n\nTheTemperate zone is marked by the presence of Quercus
+leucotrichophora (Banj oak), Rhododendron arboretum (Burans), Myrica
+esculent a (Kaphal), Leonia ovalifolia (Aynor), Ibex dipyrena, Quercus
+semecarpifolia (Kharsu Oak), Q. dilatata (Moru Oak), etc. The coniferous
+forests in this zone are unique. Pure stands of Pinus roxburghii (Chir Pine)
+and Cadres deodar (Deodar, Cedar), Abides windrow (Raga), Pinus
+wal/ichiana (Kail), Taxus wal/ichiana (Thuner, Himalayan Yew) at places
+give a pristine look to the slopes. "
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/two"
+        android:text="Sub-Alpine and Alpine Zones of Uttarakhand\n\nThe altitude above 3,000 metres is generally considered a zone of sub-alpine and alpine
+vegetation. The tree species are represented by Pinus wallichiana,
+Abies pindrow, Prunus cornuta, Acer caesium, Betula utilis (Bhoj Patra)
+and Salix sp. Species of the genera Cotoneaster, Rosa, Berberis,
+Ribes, Junipers, Rhododendron anthropogenic, Rhododendron
+campanulas are the shrubby components of the zone. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
